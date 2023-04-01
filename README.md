@@ -1,5 +1,5 @@
 # ee7-env
-Sample ExpressionEngine v7 configs for production and local development with DDEV.
+Sample ExpressionEngine v7 configs for production and local development with DDEV. These are just examples that reflect my own opinions about the proper configuration of ExpressionEngine v7. Mileage may vary depending on your choice of environment and tooling.
 
 ## Usage
 1. Copy the `.env.x.php` files into your ExpressionEngine v7 site within the same directory as your `system/` directory.
