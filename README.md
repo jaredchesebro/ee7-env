@@ -2,9 +2,12 @@
 Sample ExpressionEngine v7 configs for production and local development with DDEV. These are just examples that reflect my own opinions about the proper configuration of ExpressionEngine v7. Mileage may vary depending on your choice of environment and tooling.
 
 ## Usage
+
+***STOP!!!*** *Back up your site files and database before trying this on an existing site.*
+
 1. Copy the `.env.x.php` files into your ExpressionEngine v7 site within the same directory as your `system/` directory.
 
-Note: If you have moved your `system/` directory outside of the webroot you must also move your `.env.{env}.php` files to that location.
+**Note:** If you have moved your `system/` directory outside of the webroot you must also move your `.env.{env}.php` files to that location.
 
 2. Rename the `.env.x.php` you would like to use to `.env.php`.
 
@@ -12,4 +15,4 @@ Note: If you have moved your `system/` directory outside of the webroot you must
 
 4. Copy the included `config.php` to `system/user/config/`.
 
-Note: Be sure to replace the `app_version` to match the version of your ExpressionEngine install. `.env.php` will not work for ExpressionEngine 6 and below.
+**Note:** Be sure to replace the `app_version` to match the version of your ExpressionEngine install. `.env.php` will not work for ExpressionEngine 6 and below.
